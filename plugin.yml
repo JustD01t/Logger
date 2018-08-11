@@ -1,0 +1,13 @@
+name: Logger
+main: logger\Logger
+version: JustD01N9
+api: [4.0.0]
+author: "JustD01t team"
+depends: FormAPI
+commands:
+    vlog:
+        description: "로그검색을 위한 UI창을 엽니다"
+        permission: logger.openui
+permissions:
+    logger.openui:
+        default: true
